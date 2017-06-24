@@ -7,13 +7,13 @@ var ArticleSchema = new Schema({
 		type: String,
 		required: true
 	},
-	text: {
+	link: {
 		type: String,
 		require: false
 	}
 
 });
 
-var Article = mongoose.model("Artiicle", ArticleSchema);
+var Article = mongoose.model("Article", ArticleSchema);
 
 module.exports = Article;
